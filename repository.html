@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Repository</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+	<script type="text/javascript" src="js.js"></script>
+	<div class="header_footer">
+		<div class="header_footer_bag" style="max-width: 100%;min-width: 80%">
+			<p style="font-size:100%;font-weight: bold;letter-spacing: 1px;">Website Profil Pribadi</p>
+			<p style="font-size:80%"> Nova Andre Saputra<br></p>
+			<p style="font-size: 80%">2019</p>
+		</div>
+		<div class="header_footer_bag" style="width: auto;margin-top:0.9%;text-align: left;border-left: 2px solid white;">
+			<p style="padding-left:5%;color: yellow; ">
+				<br><br>Selamat Datang,<br>
+			</p>
+		</div>
+	</div>
+	<!--Batas Header-->
+	<div id="menu_utama">
+		<div class="dropdown">
+			<a href="index.html"><button class="dropbtn">Beranda</button></a>
+		</div>
+		<div class="dropdown">
+  			<a href="index.html#isi_about"><button class="dropbtn">Biodata</button></a>
+  		</div>
+		<div class="dropdown">
+			<a href="index.html#isi_pengalaman"><button class="dropbtn">Aktivitas</button></a>
+		</div>
+		<div class="dropdown" style="margin-right: 13%;">
+			<a href="repository.html"><button class="dropbtn">Repository</button></a>
+		</div>
+	</div>
+	<div id="id_card">
+		<div class="block">
+			<img src="galeri_foto/foto_profil.jpg">
+			<h1>Hi,</h1>
+			<p><b>Saya Nova Andre Saputra,</b></p>
+			<div class="running_text"><i><p>IT Engineering</p><p>Web Developer</p><p>Editor</p></i></div>
+		</div>
+	</div>
+	<div class="gambar_card" style="background-image: url(galeri_foto/gambar_card.jpg);border-top: 2px solid white;">
+		<div class="overlay" style="box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);">
+		</div>
+	</div>
+	<div id="isi_about">
+		<div class="block" style="max-width:100%;min-width: 100%;text-align: center;">
+			<div class="block" style="width:85%;padding-left: 7.5%;padding-right: 7.5%;text-align: center;">
+			<h3 style="letter-spacing: 5px;">Repository Pribadi<hr width="100%"></h3>
+			<p style="color:#315EAF;text-align: center;">Repository pribadi, berisi konten profil pendukung konten dalam website seperti foto, karya, sertifikasi dan lainnya</p>
+			 <i><p style="text-align: center;"><br>Try it ! & Do your best...</i></p>
+			</div>
+		</div>
+	</div>
+	<div id="isi_repository">
+			<a href="galeri_foto/#"><div class="block" style="margin-left: 4%;margin-right: 2%;">
+				<h3>Galeri Foto</h3>
+				<p>Gudang penyimpanan foto - foto nostalgia, seperti foto kenang - kenangan SD, SMP, SMA</p>
+			</div></a>
+			<a href="galeri_karya/#"><div class="block" style="margin-left: 2%;margin-right: 2%;">
+				<h3>Galeri Karya</h3>
+				<p>Gudang penyimpanan karya hasil editan foto, thumbnail, poster, pamflet, dan lainnya</p>
+			</div></a>
+			<a href="galeri_foto/#"><div class="block" style="margin-left: 2%;margin-right: 4%;">
+				<h3>Galeri Sertifikasi</h3>
+				<p>Gudang penyimpanan sertifikat - sertifikat khusus yang diraih dari pengalaman diri</p>
+			</div></a>
+	</div>
+	<!--Batas Footer-->
+	<div class="header_footer" style="padding-top: 5%;">
+		<div class="header_footer_bag" style="max-width: 40%;min-width: 40%;">
+			<p style="font-size:100%;font-weight: bold;letter-spacing: 1px;">Website Profil Pribadi</p>
+			<p style="font-size:80%"> Nova Andre Saputra<br></p>
+			<p style="font-size: 80%">2019</p>
+			<h3 style="text-align: center;color: yellow;letter-spacing: 1px;"><hr color="white" width="20%" align="center">"Semakin kau kejar, <br>kemungkinan meraihnya <br>akan semakin dekat"<hr color="white" width="20%" align="center"></h3>
+			<div class="header_footer_bag" style="width: auto;margin-top:8%;text-align: left;border-left: 2px solid white;">
+			<p style="padding-left:5%;color: yellow; ">
+				<br><br>Terima Kasih Telah Berkunjung,<br>
+			</p>
+		</div>
+		</div>
+			<div class="header_footer_bag" style="max-width: 60%;min-width: 50%;padding-left: 3%;border-left: 2px solid white;">
+			<h3 style="text-align: left;color: yellow;letter-spacing: 1px;">Tuliskan Pesan dan Kesan Anda<hr color="yellow"
+				width="60%" align="left"></h3>
+			<form action="" name="form" method="post" onSubmit="return validasi_form(this)">
+			<ul>
+				<li style="padding: 0px 0px 10px 0px">Nama : <input type="text" name="nama" size="63" placeholder="Masukkan nama Anda..." onkeypress="return cekBukanAngka(event)" required/></li>				
+				<li style="padding: 0px 0px 10px 0px">Email : &nbsp;<input type="email" name="email" size="63" placeholder="Masukkan email Anda..." required/></li>
+				<li style="padding: 10px 0px 10px 0px"><p>Bagaimana pendapat rate dari Anda mengenai tampilan website ini?</p></li>
+				<input type="radio" name="rate" value="1">1 (Kurang baik)<input type="radio" name="rate" value="2">2 (Desain Baik)<input type="radio" name="rate" value="3">3 (Informatif)<input type="radio" name="rate" value="4">4 (Sangat Baik)
+				<li style="padding: 20px 0px 0px 0px"><p>Pesan/Kesan :</p><dd><textarea name="pesan" rows="5" cols="50" style="resize: none">
+				</textarea></dd></li>
+			</ul>
+			<input type="submit" value="SIMPAN"></input>
+			<input type="reset" value="RESET"></input>
+			</form> 	
+		</div>
+		</div>
+	<div class="header_footer" style="box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);height: 20px;">
+	</div>
+</body>
+</html>
